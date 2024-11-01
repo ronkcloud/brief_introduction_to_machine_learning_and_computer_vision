@@ -31,7 +31,7 @@ uv sync
 ```
 
 ```
-pip install torch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cu124
+uv pip install torch==2.5.1+cu124 torchvision==0.20.1+cu124 torchaudio==2.5.1+cu124 --index-url https://download.pytorch.org/whl/cu124
  ```
 
 Download dataset here <a>https://drive.google.com/file/d/1j4wcvYzSi9d8VKaFOPPyt_5qxk-Dr_kU/view?usp=sharing</a>
